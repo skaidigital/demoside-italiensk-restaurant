@@ -40,28 +40,28 @@ const InfoCardHomePage = () => {
               </Link>
             </div>
           </GridItem>
-          <GridItem c="col-span-4 md:col-span-5 lg:col-span-4 lg:col-start-9">
+          <GridItem c="col-span-4 md:col-span-8 lg:col-span-4 lg:col-start-9">
             <div className="flex flex-col">
               <h2 className="text-dark text-h4 font-semibold mb-8">
                 Åpningstider
               </h2>
-              <div className="border-b-2 pb-8 border-dark border-dark flex justify-between">
+              <div className="border-b-2 pt-8 border-dark border-dark flex justify-between">
                 <p>Mandag</p>
                 <p>Stengt</p>
               </div>
-              <div className="border-b-2 border-dark pb-8 w-0100 flex justify-between">
+              <div className="border-b-2 border-dark pt-8 w-0100 flex justify-between">
                 <p>Tirsdag - Torsdag</p>
                 <p>11:00-21:00</p>
               </div>
-              <div className="border-b-2 border-dark pb-8 w-0100 flex justify-between">
+              <div className="border-b-2 border-dark pt-8 w-0100 flex justify-between">
                 <p>Fredag</p>
                 <p>11:00-24:00</p>
               </div>
-              <div className="border-b-2 border-dark pb-8 w-0100 flex justify-between">
+              <div className="border-b-2 border-dark pt-8 w-0100 flex justify-between">
                 <p>Lørdag</p>
                 <p>11:00-24:00</p>
               </div>
-              <div className="border-b-2 border-dark pb-8 w-0100 flex justify-between">
+              <div className="border-b-2 border-dark pt-8 w-0100 flex justify-between">
                 <p>Søndag</p>
                 <p>11:00-21:00</p>
               </div>

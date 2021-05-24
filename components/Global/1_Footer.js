@@ -11,7 +11,9 @@ export const Footer = () => {
               <span className="text-h1 font-bold">Raviolis</span>
             </div>
             <div className="flex flex-1 flex-col my-24 lg:my-0">
-              <h2 className="text-h4 font-semibold text-hvit">Navigasjon</h2>
+              <h2 className="text-h3 mb-16 font-semibold text-hvit">
+                Navigasjon
+              </h2>
               <Link href="/">
                 <a className="py-4">Hjem</a>
               </Link>
@@ -30,7 +32,7 @@ export const Footer = () => {
               </Link>
             </div>
             <div className="flex flex-1 my-24 lg:my-0 flex-col">
-              <h2 className="text-h4 font-bold text-hvit">
+              <h2 className="text-h3 mb-16 font-bold text-hvit">
                 Ta kontakt med oss!
               </h2>
               <p className="py-4">

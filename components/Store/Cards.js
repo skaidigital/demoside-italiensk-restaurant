@@ -19,7 +19,7 @@ export const PictureCardReversed = ({
 }) => {
   return (
     <Grid>
-      <GridItem c="col-span-4 md:col-start-5 lg:col-start-7 lg:col-span-6 items-self-stretch grid h-400 min-h-0">
+      <GridItem c="row-start-1 col-span-4 md:col-span-8 lg:col-start-7 lg:col-span-6 items-self-stretch grid h-400 min-h-0">
         <Image
           className=""
           objectFit="cover"
@@ -31,7 +31,7 @@ export const PictureCardReversed = ({
           loader={myLoader}
         />
       </GridItem>
-      <GridItem c="col-span-4 row-start-1 lg:col-span-5">
+      <GridItem c="col-span-4 md:col-span-8 lg:col-span-5">
         <h2 className="text-h2">{tittel}</h2>
         <p className="my-16 text-p">{beskrivelse}</p>
         <MainButton btnText={buttonText} path={href} />
@@ -52,12 +52,7 @@ export const PictureCard = ({
 }) => {
   return (
     <Grid>
-      <GridItem c="col-span-4 lg:col-span-5 md:col-start-5 lg:col-start-8">
-        <h2 className="text-h2">{tittel}</h2>
-        <p className="my-16 text-p">{beskrivelse}</p>
-        <MainButton btnText={buttonText} path={href} />
-      </GridItem>
-      <GridItem c="row-start-1 row-start-1 col-span-4 lg:col-span-6 grid items-self-stretch h-400 min-h-0">
+      <GridItem c="row-start-1  row-start-1 col-span-4 md:col-span-8 lg:col-span-6 grid items-self-stretch h-400 min-h-0">
         <Image
           className=""
           objectFit="cover"
@@ -67,6 +62,11 @@ export const PictureCard = ({
           width={width}
           loader={myLoader}
         />
+      </GridItem>
+      <GridItem c="col-span-4 lg:col-span-5 md:col-span-8 lg:col-start-8">
+        <h2 className="text-h2">{tittel}</h2>
+        <p className="my-16 text-p">{beskrivelse}</p>
+        <MainButton btnText={buttonText} path={href} />
       </GridItem>
     </Grid>
   );

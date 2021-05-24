@@ -13,7 +13,7 @@ const Kontaktskjema = () => {
         <Grid>
           <GridItem c="col-span-4 md:col-start-2 md:col-span-6 lg:col-span-5 lg:col-start-2 flex content-center mt-32">
             <div className="flex flex-col">
-              <h2 className="text-black">
+              <h2 className="text-black text-h2">
                 Velkommen til Habibi – i “Strøget-passasjen” i Oslo sentrum
               </h2>
               <p className="my-16">
