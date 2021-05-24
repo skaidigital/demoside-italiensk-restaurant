@@ -3,7 +3,7 @@ export const MainButton = ({ path, btnText, className, href }) => {
     <div className="flex">
       <a
         href={href}
-        className={`w-0100 font-semibold md:w-auto bg-cta rounded-rund py-8 px-32 text-center cursor-pointer hover:deco-none text-hvit text-p hover:no-underline ${className}`}
+        className={`w-0100 font-semibold md:w-auto bg-cta rounded-rund py-12 px-32 text-center cursor-pointer hover:deco-none text-hvit text-p hover:no-underline ${className}`}
       >
         {btnText}
       </a>
@@ -16,7 +16,7 @@ export const SecondaryButton = ({ href, btnText, c }) => {
     <div className="flex">
       <a
         href={href}
-        className={`bg-hvite border-2 font-semibold cursor-pointer hover:deco-none border-black rounded-rund py-8 px-32 flex text-center text-black text-p hover:no-underline ${c}`}
+        className={`w-0100 md:auto justify-center bg-hvite border-2 font-semibold cursor-pointer hover:deco-none border-black rounded-rund py-12 px-32 flex text-black text-p hover:no-underline ${c}`}
       >
         {btnText}
       </a>

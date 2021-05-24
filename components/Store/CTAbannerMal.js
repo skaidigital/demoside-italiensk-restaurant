@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Layout } from "../Små/BaseElementer";
 import { MainButton } from "../Små/Buttons";
 
 const myLoader = ({ src, width, quality }) => {
@@ -67,7 +68,7 @@ export const PictureCardReversed = ({
 
 export const CTAbanner = ({ src, alt, tittel, brodteks, btnText }) => {
   return (
-    <div className="flex h-510 z-1 relative bgImage justify-center">
+    <div className="flex h-510 z-1 relative bgImage items-center justify-center">
       <Image
         src={src}
         alt={alt}
@@ -75,17 +76,19 @@ export const CTAbanner = ({ src, alt, tittel, brodteks, btnText }) => {
         objectFit="cover"
         loader={myLoader}
       />
-      <div className="flex justify-center items-center flex-col relative z-1">
-        <div className="text-center">
-          <h2 className="text-h1 text-hvit">{tittel}</h2>
+      <Layout>
+        <div className="flex justify-center items-center flex-col relative z-1">
+          <div className="text-center">
+            <h2 className="text-h1 text-hvit">{tittel}</h2>
+          </div>
+          <div className="flex justify-center my-8 text-center">
+            <p className="w- text-hvit">{brodteks}</p>
+          </div>
+          <div className="my-20">
+            <MainButton btnText={btnText} />
+          </div>
         </div>
-        <div className="flex justify-center my-8 text-center">
-          <p className="w- text-hvit">{brodteks}</p>
-        </div>
-        <div className="my-20">
-          <MainButton btnText={btnText} />
-        </div>
-      </div>
+      </Layout>
     </div>
   );
 };

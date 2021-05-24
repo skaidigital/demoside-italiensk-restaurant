@@ -1,6 +1,5 @@
-import { HeroContainerUtenPadding } from "../../Små/BaseElementer";
-import { Bilde } from "../../Små/Bilde";
 import Image from "next/image";
+import { HeroContainerUtenPadding } from "../../Små/BaseElementer";
 
 const myLoader = ({ src, width, quality }) => {
   return `https://res.cloudinary.com/skai-digital/image/upload/q_auto/${src}`;
@@ -17,6 +16,7 @@ const ImageHomePage = () => {
             layout="fill"
             objectFit="cover"
             loader={myLoader}
+            objectPosition="right"
           />
         </div>
         {/* <Bilde

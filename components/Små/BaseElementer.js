@@ -52,14 +52,8 @@ export const HeroContainer = ({ children, id, farge, pt, c }) => {
   );
 };
 
-export const HeroContainerUtenPadding = ({
-  children,
-  id,
-  farge,
-  pt,
-  klasseNavn,
-}) => {
-  const klassenavn = `bg-${farge} mx-auto align-center pt-40 md:pt-56 lg:pt-80 z-1`;
+export const HeroContainerUtenPadding = ({ children, id, farge, pt, c }) => {
+  const klassenavn = `bg-${farge} mx-auto align-center pt-40 md:pt-56 lg:pt-80 z-1 ${c}`;
   return (
     <section id={id} className={klassenavn}>
       <Element name={id}>{children}</Element>

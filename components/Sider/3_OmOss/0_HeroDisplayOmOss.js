@@ -9,7 +9,7 @@ const HeroDisplayOmOss = () => {
   return (
     <HeroContainerUtenPadding id="HeroDisplayOmOss">
       <>
-        <div className="flex relative h-510 z-1 mt-32">
+        <div className="flex relative h-280 md:h-510 z-1 mt-32">
           <div>
             <Image
               src={"v1619771687/Italiensk Demo Side/Kjøkken-servering.jpg"}

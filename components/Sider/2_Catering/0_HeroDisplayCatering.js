@@ -3,7 +3,7 @@ import { HeroDisplayFull } from "../../Store/HeroDisplayFull";
 
 const HeroDisplayCatering = ({}) => {
   return (
-    <HeroContainerUtenPadding id="HeroDisplayCatering" klasseNavn="-mt-80">
+    <HeroContainerUtenPadding id="HeroDisplayCatering" c="pt-80">
       <HeroDisplayFull
         src={"v1619771802/Italiensk Demo Side/forbereder-skinke-fat.jpg"}
         alt="En servitør forberder et skinke fat"

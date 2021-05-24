@@ -3,7 +3,7 @@ import { HeroDisplayFull } from "../../Store/HeroDisplayFull";
 
 const HeroDisplayMeny = () => {
   return (
-    <HeroContainerUtenPadding id="HeroDisplayMeny">
+    <HeroContainerUtenPadding id="HeroDisplayMeny" c="pt-80">
       <HeroDisplayFull
         src={"v1619771760/Italiensk Demo Side/pizzaoven.jpg"}
         alt="En pizza ovn"
